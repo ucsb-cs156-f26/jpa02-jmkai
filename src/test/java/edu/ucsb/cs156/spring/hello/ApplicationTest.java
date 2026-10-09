@@ -9,9 +9,9 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 @ExtendWith(SpringExtension.class)
 public class ApplicationTest {
 
-  @Test
-  public void test_that_application_starts_without_crashing() {
-    Application.main(new String[] {});
-    assertTrue(true);
-  }
+  	@Test
+  	public void test_that_application_starts_without_crashing() {
+    	Application.main(new String[] {});
+    	assertTrue(true);
+	}
 }
